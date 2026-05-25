@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-50: #f5edff;
+  --color-brand-200: #d9b8ff;
+  --color-brand-500: #aa3bff;
+  --color-brand-600: #863bff;
+  --color-ink: #08060d;
+  --color-muted: #6b6375;
+  --color-line: #e5e4e7;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply min-h-screen bg-white font-sans text-neutral-900;
+  }
+}
