@@ -1,5 +1,5 @@
 export const HERO_CONTENT = {
-  badge: 'my cicd',
+  badge: 'Creative Intelligence Platform pp',
   title: 'Pratibha EC2 Deployment Test',
   description:
     'Transform your ideas into stunning visuals with AI-powered tools built for creators, designers, and dreamers.',
