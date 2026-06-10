@@ -7,7 +7,6 @@ import Testimonials from '../components/home/Testimonials.jsx'
 function Home() {
   return (
     <main className="flex-1">
-      // trigger workflow
       <Hero />
       <Experience />
       <Offers />
